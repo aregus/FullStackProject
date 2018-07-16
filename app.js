@@ -1,4 +1,4 @@
-import express from 'express';
+var express = require('express');
 
 
 var app = express();
@@ -8,6 +8,6 @@ app.get('/', function (req, res){
 })
 
 
-applicationCache.listen(5000, function (){
+app.listen(5000, function (){
     console.log('Dev app listening to post 5000');
 })
