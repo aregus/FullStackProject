@@ -4,6 +4,7 @@
   "description": "Full Stack Project",
   "main": "app.js",
   "scripts": {
+    "start": "babel-node app.js --presets es2015,stage-2"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
